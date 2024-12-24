@@ -13,6 +13,23 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Install dependencies
+        run: npm install
+        working-directory: ./frontend
+
+      - name: Build Next.js app
+        run: npm run build
+        working-directory: ./frontend
+
+      - name: Zip build directory
+        run: zip -r build.zip .next
+        working-directory: ./frontend
+
       - name: Set up Terraform
         uses: hashicorp/setup-terraform@v1
         with:
@@ -45,4 +62,4 @@ jobs:
           ARM_CLIENT_SECRET: ${{ steps.get-secrets.outputs.client_secret }}
           ARM_SUBSCRIPTION_ID: ${{ steps.get-secrets.outputs.subscription_id }}
           ARM_TENANT_ID: ${{ steps.get-secrets.outputs.tenant_id }}
-          # Comment to test workflow
+
