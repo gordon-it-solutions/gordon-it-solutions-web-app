@@ -45,3 +45,4 @@ jobs:
           ARM_CLIENT_SECRET: ${{ steps.get-secrets.outputs.client_secret }}
           ARM_SUBSCRIPTION_ID: ${{ steps.get-secrets.outputs.subscription_id }}
           ARM_TENANT_ID: ${{ steps.get-secrets.outputs.tenant_id }}
+          # Comment to test workflow
