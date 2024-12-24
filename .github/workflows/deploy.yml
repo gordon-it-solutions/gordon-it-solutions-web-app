@@ -16,7 +16,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '18'
+          node-version: '18'  # Update to Node.js version 18
 
       - name: Install dependencies
         run: npm install
@@ -54,14 +54,17 @@ jobs:
 
       - name: Terraform Init
         run: terraform init
-        working-directory: ./terraform
+        working-directory: ./terraform  # Specify the working directory
 
       - name: Terraform Apply
-        run: terraform apply -auto-approve
-        working-directory: ./terraform
+        run: terraform apply -auto-approve -var-file=terraform.tfvars
+        working-directory: ./terraform  # Specify the working directory
         env:
           ARM_CLIENT_ID: ${{ steps.get-secrets.outputs.client_id }}
           ARM_CLIENT_SECRET: ${{ steps.get-secrets.outputs.client_secret }}
           ARM_SUBSCRIPTION_ID: ${{ steps.get-secrets.outputs.subscription_id }}
           ARM_TENANT_ID: ${{ steps.get-secrets.outputs.tenant_id }}
 
+      - name: Deploy to Azure App Service
+        run: |
+          az webapp deployment source config-zip --resource-group gits-resources --name gits-frontend --src ./frontend/build.zip
