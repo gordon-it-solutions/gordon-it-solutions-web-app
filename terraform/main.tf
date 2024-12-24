@@ -71,7 +71,7 @@ module "storage_account" {
 
 module "app_service" {
   source              = "./modules/app_service"
-  name                = "gits-frontend"
+  name                = var.app_service_name
   location            = module.resource_group.location
   resource_group_name = module.resource_group.name
   app_service_plan_id = module.app_service_plan.id

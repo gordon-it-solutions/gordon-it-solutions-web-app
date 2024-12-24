@@ -57,7 +57,7 @@ jobs:
         working-directory: ./terraform
 
       - name: Terraform Apply
-        run: terraform apply -auto-approve -var "app_service_name=${{ secrets.APP_SERVICE_NAME }}"
+        run: terraform apply -auto-approve
         working-directory: ./terraform
         env:
           ARM_CLIENT_ID: ${{ steps.get-secrets.outputs.client_id }}
