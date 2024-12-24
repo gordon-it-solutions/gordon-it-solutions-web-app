@@ -22,10 +22,10 @@ jobs:
         id: get-secrets
         run: |
           az login --service-principal -u ${{ secrets.AZURE_CLIENT_ID }} -p ${{ secrets.AZURE_CLIENT_SECRET }} --tenant ${{ secrets.AZURE_TENANT_ID }}
-          CLIENT_ID=$(az keyvault secret show --name AZURE-CLIENT-ID --vault-name GordonITSolutionsKV | Secrets --query value -o tsv)
-          CLIENT_SECRET=$(az keyvault secret show --name AZURE-CLIENT-SECRET --vault-name GordonITSolutionsKV | Secrets --query value -o tsv)
-          SUBSCRIPTION_ID=$(az keyvault secret show --name AZURE-SUBSCRIPTION-ID --vault-name GordonITSolutionsKV | Secrets --query value -o tsv)
-          TENANT_ID=$(az keyvault secret show --name AZURE-TENANT-ID --vault-name GordonITSolutionsKV | Secrets --query value -o tsv)
+          CLIENT_ID=$(az keyvault secret show --name AZURE-CLIENT-ID --vault-name GordonITSolutionKV --query value -o tsv)
+          CLIENT_SECRET=$(az keyvault secret show --name AZURE-CLIENT-SECRET --vault-name GordonITSolutionsKV --query value -o tsv)
+          SUBSCRIPTION_ID=$(az keyvault secret show --name AZURE-SUBSCRIPTION-ID --vault-name GordonITSolutionsKV --query value -o tsv)
+          TENANT_ID=$(az keyvault secret show --name AZURE-TENANT-ID --vault-name GordonITSolutionsKV --query value -o tsv)
           echo "::set-output name=client_id::$CLIENT_ID"
           echo "::set-output name=client_secret::$CLIENT_SECRET"
           echo "::set-output name=subscription_id::$SUBSCRIPTION_ID"
