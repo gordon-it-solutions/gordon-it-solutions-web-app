@@ -1,11 +1,19 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using GordonITSolutionsWebApp.Data;
 using GordonITSolutionsWebApp.Models;
 
 namespace GordonITSolutionsWebApp.Pages
 {
     public class ContactModel : PageModel
     {
+        private readonly ApplicationDbContext _context;
+
+        public ContactModel(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+
         [BindProperty]
         public ContactUsFormModel? Form { get; set; }
 
@@ -15,19 +23,29 @@ namespace GordonITSolutionsWebApp.Pages
         {
         }
 
-        public IActionResult OnPost()
+        public async Task<IActionResult> OnPostAsync()
         {
             if (ModelState.IsValid)
             {
-                // Process the form data (e.g., send an email or store in a database)
-                // For now, we’ll just simulate a successful submission
-                SuccessMessage = "Thank you for getting in touch! We will get back to you soon.";
+                if (Form != null)
+                {
+                    // Save form data to the database
+                    _context.ContactFormEntries.Add(Form);
+                    await _context.SaveChangesAsync();
+
+                    // Set success message
+                    SuccessMessage = "Thank you for getting in touch! We will get back to you soon.";
+                }
+                else
+                {
+                    // Handle the case where the form is unexpectedly null
+                    ModelState.AddModelError(string.Empty, "The form submission failed. Please try again.");
+                }
+
                 return Page();
             }
             return Page();
         }
     }
 }
-
-
 

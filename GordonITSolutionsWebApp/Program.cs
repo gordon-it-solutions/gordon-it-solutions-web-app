@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using GordonITSolutionsWebApp.Data; // Ensure this namespace matches where your DbContext is located
+using GordonITSolutionsWebApp.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
