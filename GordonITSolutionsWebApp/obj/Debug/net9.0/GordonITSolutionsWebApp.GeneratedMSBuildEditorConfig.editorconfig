@@ -24,6 +24,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWJvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/Pages/Blog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQmxvZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/Pages/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29udGFjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

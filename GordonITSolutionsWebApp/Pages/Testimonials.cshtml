@@ -4,7 +4,12 @@
     ViewData["Title"] = "Testimonials";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Testimonials</h1>
+<div class="jumbotron">
+    <h1 class="display-4">Our Services</h1>
     <p class="lead">Hear what our clients have to say about our IT consulting services.</p>
+    <picture>
+        <source media="(max-width: 799px)" srcset="~/images/Testimonials_Image_Small.jpg">
+        <source media="(min-width: 800px)" srcset="~/images/Testimonials_Image_Large.jpg">
+        <img src="~/images/Testimonials_Image_Large.jpg" alt="Services" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+    </picture>
 </div>

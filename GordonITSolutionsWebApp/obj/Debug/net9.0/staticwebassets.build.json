@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "i55rwJ+u2/G3r7KlCwmJB9dKeKUAl4tdw7c3h0m3+do=",
+  "Hash": "fE/CvadjnO6Ipm1vr/hEzQX9Er9MrPpH5/FhyjaqFyI=",
   "Source": "GordonITSolutionsWebApp",
   "BasePath": "_content/GordonITSolutionsWebApp",
   "Mode": "Default",
@@ -101,12 +101,12 @@
       "OriginalItemSpec": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/obj/Debug/net9.0/compressed/1htgaifjrn-elz30pcj00.gz",
+      "Identity": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/obj/Debug/net9.0/compressed/1htgaifjrn-izrcl634eo.gz",
       "SourceId": "GordonITSolutionsWebApp",
       "SourceType": "Discovered",
       "ContentRoot": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/GordonITSolutionsWebApp",
-      "RelativePath": "css/site#[.{fingerprint=elz30pcj00}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=izrcl634eo}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -115,8 +115,8 @@
       "RelatedAsset": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/css/site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "hbcy2ldfn9",
-      "Integrity": "3bhvsHkjcr1RNj4ozDE7mxPmZ/rzqCXBI+HuMnROzv8=",
+      "Fingerprint": "zpnvv5qjxf",
+      "Integrity": "15zZ/PV6w/pvNeYrBtoG/s+KJlFp7vdujcrd0INUjYE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/css/site.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "elz30pcj00",
-      "Integrity": "DqVfa4a8+oWGlFawTLabRY+fMgpTsBC6hgWDTdNTvnk=",
+      "Fingerprint": "izrcl634eo",
+      "Integrity": "UqoYBW5HpOaoETfQ5MVeXaMHhgheKL368Q/J9C/jokA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
@@ -1443,6 +1443,258 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Blog_Image_Large.jpg",
+      "SourceId": "GordonITSolutionsWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/",
+      "BasePath": "_content/GordonITSolutionsWebApp",
+      "RelativePath": "images/Blog_Image_Large#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4c31p1gi9w",
+      "Integrity": "3FvZgliocjPfMPMaWZwGHt52f6OkYSLyQuiFvHGJj3M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/Blog_Image_Large.jpg"
+    },
+    {
+      "Identity": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Blog_Image_Small.jpg",
+      "SourceId": "GordonITSolutionsWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/",
+      "BasePath": "_content/GordonITSolutionsWebApp",
+      "RelativePath": "images/Blog_Image_Small#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9djrw8fjt9",
+      "Integrity": "zYpOXz3UK7we1Ts86+CAZbBKsTo+FRe/JJ3KC+1jL1I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/Blog_Image_Small.jpg"
+    },
+    {
+      "Identity": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Contact_Us_Image_Large.jpg",
+      "SourceId": "GordonITSolutionsWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/",
+      "BasePath": "_content/GordonITSolutionsWebApp",
+      "RelativePath": "images/Contact_Us_Image_Large#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e5dip13e5p",
+      "Integrity": "EiCmeibXMzgk7OrF9HyQ1NetGwHuvh3FHJQmsdmODSQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/Contact_Us_Image_Large.jpg"
+    },
+    {
+      "Identity": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Contact_Us_Image_Small.jpg",
+      "SourceId": "GordonITSolutionsWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/",
+      "BasePath": "_content/GordonITSolutionsWebApp",
+      "RelativePath": "images/Contact_Us_Image_Small#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "70x7oq7081",
+      "Integrity": "19K2KfAvCYlvDefwVwSbi/kW8S5HXuxm2cU+6Sqvvqk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/Contact_Us_Image_Small.jpg"
+    },
+    {
+      "Identity": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Modern_Office_Banner_Large.jpg",
+      "SourceId": "GordonITSolutionsWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/",
+      "BasePath": "_content/GordonITSolutionsWebApp",
+      "RelativePath": "images/Modern_Office_Banner_Large#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qugadla01o",
+      "Integrity": "LktUfTYVxNGkZ6oR9fSihCH6GPlqEFwSlWsrYa4ktog=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/Modern_Office_Banner_Large.jpg"
+    },
+    {
+      "Identity": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Modern_Office_Banner_Small.jpg",
+      "SourceId": "GordonITSolutionsWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/",
+      "BasePath": "_content/GordonITSolutionsWebApp",
+      "RelativePath": "images/Modern_Office_Banner_Small#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k6rsu7mqgj",
+      "Integrity": "nLIZP1i8vMBko2cfW7afEEoxzJPwVHnPKg6+Ih3XgVE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/Modern_Office_Banner_Small.jpg"
+    },
+    {
+      "Identity": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Services_Image_Large.jpg",
+      "SourceId": "GordonITSolutionsWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/",
+      "BasePath": "_content/GordonITSolutionsWebApp",
+      "RelativePath": "images/Services_Image_Large#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9vdn69h59l",
+      "Integrity": "9X9ulRugXYcHQIwRvJHQxEK17x74m/oWk2x8l/p01Zs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/Services_Image_Large.jpg"
+    },
+    {
+      "Identity": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Services_Image_Small.jpg",
+      "SourceId": "GordonITSolutionsWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/",
+      "BasePath": "_content/GordonITSolutionsWebApp",
+      "RelativePath": "images/Services_Image_Small#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m2y78fz8hi",
+      "Integrity": "PnzM7JcXVwsS19xVNh8q5uTfOjahu8yWM4nAwn7c0yY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/Services_Image_Small.jpg"
+    },
+    {
+      "Identity": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Team_Members_Large.jpg",
+      "SourceId": "GordonITSolutionsWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/",
+      "BasePath": "_content/GordonITSolutionsWebApp",
+      "RelativePath": "images/Team_Members_Large#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9p85z1edlt",
+      "Integrity": "s32buSvmAgSAGAEAHpnpO+2OV4AvcCFPuSVPrfporio=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/Team_Members_Large.jpg"
+    },
+    {
+      "Identity": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Team_Members_Small.jpg",
+      "SourceId": "GordonITSolutionsWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/",
+      "BasePath": "_content/GordonITSolutionsWebApp",
+      "RelativePath": "images/Team_Members_Small#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4yim06qz6u",
+      "Integrity": "lL5X+2I2iNu8TYLfFvF0AHHkoLUmJxNT0ThaSG3eNHk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/Team_Members_Small.jpg"
+    },
+    {
+      "Identity": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Testimonials_Image_Large.jpg",
+      "SourceId": "GordonITSolutionsWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/",
+      "BasePath": "_content/GordonITSolutionsWebApp",
+      "RelativePath": "images/Testimonials_Image_Large#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xbazco9bi8",
+      "Integrity": "DVsSNXbpZeUa8/sPR5kwd5joG6cHkI03YzL+DjZquVs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/Testimonials_Image_Large.jpg"
+    },
+    {
+      "Identity": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Testimonials_Image_Small.jpg",
+      "SourceId": "GordonITSolutionsWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/",
+      "BasePath": "_content/GordonITSolutionsWebApp",
+      "RelativePath": "images/Testimonials_Image_Small#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s3dnaq2792",
+      "Integrity": "6Itnxz19N5vCZYwWSwZ0Qa9gMpVrUKGozI6nHSLyqzg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/Testimonials_Image_Small.jpg"
     },
     {
       "Identity": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/js/site.js",
@@ -2729,12 +2981,12 @@
   "Endpoints": [
     {
       "Route": "css/site.css",
-      "AssetFile": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/obj/Debug/net9.0/compressed/1htgaifjrn-elz30pcj00.gz",
+      "AssetFile": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/obj/Debug/net9.0/compressed/1htgaifjrn-izrcl634eo.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.005617977528"
+          "Quality": "0.005319148936"
         }
       ],
       "ResponseHeaders": [
@@ -2744,15 +2996,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "177"
+          "Value": "187"
         },
         {
           "Name": "ETag",
-          "Value": "\"3bhvsHkjcr1RNj4ozDE7mxPmZ/rzqCXBI+HuMnROzv8=\""
+          "Value": "\"15zZ/PV6w/pvNeYrBtoG/s+KJlFp7vdujcrd0INUjYE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 26 Dec 2024 03:51:45 GMT"
+          "Value": "Thu, 26 Dec 2024 18:45:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2772,13 +3024,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"DqVfa4a8+oWGlFawTLabRY+fMgpTsBC6hgWDTdNTvnk=\""
+          "Value": "W/\"UqoYBW5HpOaoETfQ5MVeXaMHhgheKL368Q/J9C/jokA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DqVfa4a8+oWGlFawTLabRY+fMgpTsBC6hgWDTdNTvnk="
+          "Value": "sha256-UqoYBW5HpOaoETfQ5MVeXaMHhgheKL368Q/J9C/jokA="
         }
       ]
     },
@@ -2793,7 +3045,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "261"
+          "Value": "281"
         },
         {
           "Name": "Content-Type",
@@ -2801,11 +3053,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DqVfa4a8+oWGlFawTLabRY+fMgpTsBC6hgWDTdNTvnk=\""
+          "Value": "\"UqoYBW5HpOaoETfQ5MVeXaMHhgheKL368Q/J9C/jokA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 26 Dec 2024 03:51:45 GMT"
+          "Value": "Thu, 26 Dec 2024 18:45:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2815,13 +3067,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DqVfa4a8+oWGlFawTLabRY+fMgpTsBC6hgWDTdNTvnk="
+          "Value": "sha256-UqoYBW5HpOaoETfQ5MVeXaMHhgheKL368Q/J9C/jokA="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/obj/Debug/net9.0/compressed/1htgaifjrn-elz30pcj00.gz",
+      "AssetFile": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/obj/Debug/net9.0/compressed/1htgaifjrn-izrcl634eo.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2830,7 +3082,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "177"
+          "Value": "187"
         },
         {
           "Name": "Content-Type",
@@ -2838,11 +3090,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3bhvsHkjcr1RNj4ozDE7mxPmZ/rzqCXBI+HuMnROzv8=\""
+          "Value": "\"15zZ/PV6w/pvNeYrBtoG/s+KJlFp7vdujcrd0INUjYE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 26 Dec 2024 03:51:45 GMT"
+          "Value": "Thu, 26 Dec 2024 18:45:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2860,18 +3112,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-3bhvsHkjcr1RNj4ozDE7mxPmZ/rzqCXBI+HuMnROzv8="
+          "Value": "sha256-15zZ/PV6w/pvNeYrBtoG/s+KJlFp7vdujcrd0INUjYE="
         }
       ]
     },
     {
-      "Route": "css/site.elz30pcj00.css",
-      "AssetFile": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/obj/Debug/net9.0/compressed/1htgaifjrn-elz30pcj00.gz",
+      "Route": "css/site.izrcl634eo.css",
+      "AssetFile": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/obj/Debug/net9.0/compressed/1htgaifjrn-izrcl634eo.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.005617977528"
+          "Quality": "0.005319148936"
         }
       ],
       "ResponseHeaders": [
@@ -2881,15 +3133,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "177"
+          "Value": "187"
         },
         {
           "Name": "ETag",
-          "Value": "\"3bhvsHkjcr1RNj4ozDE7mxPmZ/rzqCXBI+HuMnROzv8=\""
+          "Value": "\"15zZ/PV6w/pvNeYrBtoG/s+KJlFp7vdujcrd0INUjYE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 26 Dec 2024 03:51:45 GMT"
+          "Value": "Thu, 26 Dec 2024 18:45:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2909,13 +3161,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"DqVfa4a8+oWGlFawTLabRY+fMgpTsBC6hgWDTdNTvnk=\""
+          "Value": "W/\"UqoYBW5HpOaoETfQ5MVeXaMHhgheKL368Q/J9C/jokA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "elz30pcj00"
+          "Value": "izrcl634eo"
         },
         {
           "Name": "label",
@@ -2923,12 +3175,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-DqVfa4a8+oWGlFawTLabRY+fMgpTsBC6hgWDTdNTvnk="
+          "Value": "sha256-UqoYBW5HpOaoETfQ5MVeXaMHhgheKL368Q/J9C/jokA="
         }
       ]
     },
     {
-      "Route": "css/site.elz30pcj00.css",
+      "Route": "css/site.izrcl634eo.css",
       "AssetFile": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2938,7 +3190,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "261"
+          "Value": "281"
         },
         {
           "Name": "Content-Type",
@@ -2946,11 +3198,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DqVfa4a8+oWGlFawTLabRY+fMgpTsBC6hgWDTdNTvnk=\""
+          "Value": "\"UqoYBW5HpOaoETfQ5MVeXaMHhgheKL368Q/J9C/jokA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 26 Dec 2024 03:51:45 GMT"
+          "Value": "Thu, 26 Dec 2024 18:45:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2960,7 +3212,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "elz30pcj00"
+          "Value": "izrcl634eo"
         },
         {
           "Name": "label",
@@ -2968,13 +3220,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-DqVfa4a8+oWGlFawTLabRY+fMgpTsBC6hgWDTdNTvnk="
+          "Value": "sha256-UqoYBW5HpOaoETfQ5MVeXaMHhgheKL368Q/J9C/jokA="
         }
       ]
     },
     {
-      "Route": "css/site.elz30pcj00.css.gz",
-      "AssetFile": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/obj/Debug/net9.0/compressed/1htgaifjrn-elz30pcj00.gz",
+      "Route": "css/site.izrcl634eo.css.gz",
+      "AssetFile": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/obj/Debug/net9.0/compressed/1htgaifjrn-izrcl634eo.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2983,7 +3235,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "177"
+          "Value": "187"
         },
         {
           "Name": "Content-Type",
@@ -2991,11 +3243,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3bhvsHkjcr1RNj4ozDE7mxPmZ/rzqCXBI+HuMnROzv8=\""
+          "Value": "\"15zZ/PV6w/pvNeYrBtoG/s+KJlFp7vdujcrd0INUjYE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 26 Dec 2024 03:51:45 GMT"
+          "Value": "Thu, 26 Dec 2024 18:45:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3013,7 +3265,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "elz30pcj00"
+          "Value": "izrcl634eo"
         },
         {
           "Name": "label",
@@ -3021,7 +3273,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-3bhvsHkjcr1RNj4ozDE7mxPmZ/rzqCXBI+HuMnROzv8="
+          "Value": "sha256-15zZ/PV6w/pvNeYrBtoG/s+KJlFp7vdujcrd0INUjYE="
         }
       ]
     },
@@ -3916,6 +4168,990 @@
         {
           "Name": "integrity",
           "Value": "sha256-EzHko2y4zkGrSCxNEyCC1WSqOAO/d2qTccjcrqs90dw="
+        }
+      ]
+    },
+    {
+      "Route": "images/Blog_Image_Large.4c31p1gi9w.jpg",
+      "AssetFile": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Blog_Image_Large.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "131558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3FvZgliocjPfMPMaWZwGHt52f6OkYSLyQuiFvHGJj3M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 15:21:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4c31p1gi9w"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Blog_Image_Large.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3FvZgliocjPfMPMaWZwGHt52f6OkYSLyQuiFvHGJj3M="
+        }
+      ]
+    },
+    {
+      "Route": "images/Blog_Image_Large.jpg",
+      "AssetFile": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Blog_Image_Large.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "131558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3FvZgliocjPfMPMaWZwGHt52f6OkYSLyQuiFvHGJj3M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 15:21:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3FvZgliocjPfMPMaWZwGHt52f6OkYSLyQuiFvHGJj3M="
+        }
+      ]
+    },
+    {
+      "Route": "images/Blog_Image_Small.9djrw8fjt9.jpg",
+      "AssetFile": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Blog_Image_Small.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32669"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zYpOXz3UK7we1Ts86+CAZbBKsTo+FRe/JJ3KC+1jL1I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 15:21:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9djrw8fjt9"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Blog_Image_Small.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zYpOXz3UK7we1Ts86+CAZbBKsTo+FRe/JJ3KC+1jL1I="
+        }
+      ]
+    },
+    {
+      "Route": "images/Blog_Image_Small.jpg",
+      "AssetFile": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Blog_Image_Small.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32669"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zYpOXz3UK7we1Ts86+CAZbBKsTo+FRe/JJ3KC+1jL1I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 15:21:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zYpOXz3UK7we1Ts86+CAZbBKsTo+FRe/JJ3KC+1jL1I="
+        }
+      ]
+    },
+    {
+      "Route": "images/Contact_Us_Image_Large.e5dip13e5p.jpg",
+      "AssetFile": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Contact_Us_Image_Large.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "266470"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EiCmeibXMzgk7OrF9HyQ1NetGwHuvh3FHJQmsdmODSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 15:43:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e5dip13e5p"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Contact_Us_Image_Large.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EiCmeibXMzgk7OrF9HyQ1NetGwHuvh3FHJQmsdmODSQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/Contact_Us_Image_Large.jpg",
+      "AssetFile": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Contact_Us_Image_Large.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "266470"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EiCmeibXMzgk7OrF9HyQ1NetGwHuvh3FHJQmsdmODSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 15:43:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EiCmeibXMzgk7OrF9HyQ1NetGwHuvh3FHJQmsdmODSQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/Contact_Us_Image_Small.70x7oq7081.jpg",
+      "AssetFile": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Contact_Us_Image_Small.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36934"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"19K2KfAvCYlvDefwVwSbi/kW8S5HXuxm2cU+6Sqvvqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 15:43:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "70x7oq7081"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Contact_Us_Image_Small.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-19K2KfAvCYlvDefwVwSbi/kW8S5HXuxm2cU+6Sqvvqk="
+        }
+      ]
+    },
+    {
+      "Route": "images/Contact_Us_Image_Small.jpg",
+      "AssetFile": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Contact_Us_Image_Small.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36934"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"19K2KfAvCYlvDefwVwSbi/kW8S5HXuxm2cU+6Sqvvqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 15:43:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-19K2KfAvCYlvDefwVwSbi/kW8S5HXuxm2cU+6Sqvvqk="
+        }
+      ]
+    },
+    {
+      "Route": "images/Modern_Office_Banner_Large.jpg",
+      "AssetFile": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Modern_Office_Banner_Large.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "152565"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LktUfTYVxNGkZ6oR9fSihCH6GPlqEFwSlWsrYa4ktog=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 13:18:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LktUfTYVxNGkZ6oR9fSihCH6GPlqEFwSlWsrYa4ktog="
+        }
+      ]
+    },
+    {
+      "Route": "images/Modern_Office_Banner_Large.qugadla01o.jpg",
+      "AssetFile": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Modern_Office_Banner_Large.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "152565"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LktUfTYVxNGkZ6oR9fSihCH6GPlqEFwSlWsrYa4ktog=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 13:18:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qugadla01o"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Modern_Office_Banner_Large.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LktUfTYVxNGkZ6oR9fSihCH6GPlqEFwSlWsrYa4ktog="
+        }
+      ]
+    },
+    {
+      "Route": "images/Modern_Office_Banner_Small.jpg",
+      "AssetFile": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Modern_Office_Banner_Small.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30600"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nLIZP1i8vMBko2cfW7afEEoxzJPwVHnPKg6+Ih3XgVE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 13:05:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nLIZP1i8vMBko2cfW7afEEoxzJPwVHnPKg6+Ih3XgVE="
+        }
+      ]
+    },
+    {
+      "Route": "images/Modern_Office_Banner_Small.k6rsu7mqgj.jpg",
+      "AssetFile": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Modern_Office_Banner_Small.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30600"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nLIZP1i8vMBko2cfW7afEEoxzJPwVHnPKg6+Ih3XgVE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 13:05:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k6rsu7mqgj"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Modern_Office_Banner_Small.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nLIZP1i8vMBko2cfW7afEEoxzJPwVHnPKg6+Ih3XgVE="
+        }
+      ]
+    },
+    {
+      "Route": "images/Services_Image_Large.9vdn69h59l.jpg",
+      "AssetFile": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Services_Image_Large.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "225754"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9X9ulRugXYcHQIwRvJHQxEK17x74m/oWk2x8l/p01Zs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 14:14:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9vdn69h59l"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Services_Image_Large.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9X9ulRugXYcHQIwRvJHQxEK17x74m/oWk2x8l/p01Zs="
+        }
+      ]
+    },
+    {
+      "Route": "images/Services_Image_Large.jpg",
+      "AssetFile": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Services_Image_Large.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "225754"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9X9ulRugXYcHQIwRvJHQxEK17x74m/oWk2x8l/p01Zs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 14:14:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9X9ulRugXYcHQIwRvJHQxEK17x74m/oWk2x8l/p01Zs="
+        }
+      ]
+    },
+    {
+      "Route": "images/Services_Image_Small.jpg",
+      "AssetFile": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Services_Image_Small.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52427"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PnzM7JcXVwsS19xVNh8q5uTfOjahu8yWM4nAwn7c0yY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 14:14:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PnzM7JcXVwsS19xVNh8q5uTfOjahu8yWM4nAwn7c0yY="
+        }
+      ]
+    },
+    {
+      "Route": "images/Services_Image_Small.m2y78fz8hi.jpg",
+      "AssetFile": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Services_Image_Small.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52427"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PnzM7JcXVwsS19xVNh8q5uTfOjahu8yWM4nAwn7c0yY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 14:14:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m2y78fz8hi"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Services_Image_Small.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PnzM7JcXVwsS19xVNh8q5uTfOjahu8yWM4nAwn7c0yY="
+        }
+      ]
+    },
+    {
+      "Route": "images/Team_Members_Large.9p85z1edlt.jpg",
+      "AssetFile": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Team_Members_Large.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "143896"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s32buSvmAgSAGAEAHpnpO+2OV4AvcCFPuSVPrfporio=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 13:18:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9p85z1edlt"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Team_Members_Large.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-s32buSvmAgSAGAEAHpnpO+2OV4AvcCFPuSVPrfporio="
+        }
+      ]
+    },
+    {
+      "Route": "images/Team_Members_Large.jpg",
+      "AssetFile": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Team_Members_Large.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "143896"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s32buSvmAgSAGAEAHpnpO+2OV4AvcCFPuSVPrfporio=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 13:18:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s32buSvmAgSAGAEAHpnpO+2OV4AvcCFPuSVPrfporio="
+        }
+      ]
+    },
+    {
+      "Route": "images/Team_Members_Small.4yim06qz6u.jpg",
+      "AssetFile": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Team_Members_Small.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38117"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lL5X+2I2iNu8TYLfFvF0AHHkoLUmJxNT0ThaSG3eNHk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 13:18:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4yim06qz6u"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Team_Members_Small.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lL5X+2I2iNu8TYLfFvF0AHHkoLUmJxNT0ThaSG3eNHk="
+        }
+      ]
+    },
+    {
+      "Route": "images/Team_Members_Small.jpg",
+      "AssetFile": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Team_Members_Small.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38117"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lL5X+2I2iNu8TYLfFvF0AHHkoLUmJxNT0ThaSG3eNHk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 13:18:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lL5X+2I2iNu8TYLfFvF0AHHkoLUmJxNT0ThaSG3eNHk="
+        }
+      ]
+    },
+    {
+      "Route": "images/Testimonials_Image_Large.jpg",
+      "AssetFile": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Testimonials_Image_Large.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "135876"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DVsSNXbpZeUa8/sPR5kwd5joG6cHkI03YzL+DjZquVs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 15:54:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DVsSNXbpZeUa8/sPR5kwd5joG6cHkI03YzL+DjZquVs="
+        }
+      ]
+    },
+    {
+      "Route": "images/Testimonials_Image_Large.xbazco9bi8.jpg",
+      "AssetFile": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Testimonials_Image_Large.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "135876"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DVsSNXbpZeUa8/sPR5kwd5joG6cHkI03YzL+DjZquVs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 15:54:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xbazco9bi8"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Testimonials_Image_Large.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DVsSNXbpZeUa8/sPR5kwd5joG6cHkI03YzL+DjZquVs="
+        }
+      ]
+    },
+    {
+      "Route": "images/Testimonials_Image_Small.jpg",
+      "AssetFile": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Testimonials_Image_Small.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22873"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6Itnxz19N5vCZYwWSwZ0Qa9gMpVrUKGozI6nHSLyqzg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 15:54:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6Itnxz19N5vCZYwWSwZ0Qa9gMpVrUKGozI6nHSLyqzg="
+        }
+      ]
+    },
+    {
+      "Route": "images/Testimonials_Image_Small.s3dnaq2792.jpg",
+      "AssetFile": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Testimonials_Image_Small.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22873"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6Itnxz19N5vCZYwWSwZ0Qa9gMpVrUKGozI6nHSLyqzg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 15:54:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s3dnaq2792"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Testimonials_Image_Small.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6Itnxz19N5vCZYwWSwZ0Qa9gMpVrUKGozI6nHSLyqzg="
         }
       ]
     },

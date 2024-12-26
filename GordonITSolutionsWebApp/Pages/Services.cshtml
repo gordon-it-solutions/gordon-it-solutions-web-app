@@ -1,10 +1,32 @@
 @page
-@model GordonITSolutionsWebApp.Pages.ServicesModel
+@model ServicesModel
 @{
     ViewData["Title"] = "Our Services";
 }
 
-<div class="text-center">
+<div class="jumbotron">
     <h1 class="display-4">Our Services</h1>
-    <p class="lead">We offer a wide range of IT consulting services to help your business succeed.</p>
+    <p class="lead">Explore the range of services we offer to help your business thrive.</p>
+    <picture>
+        <source media="(max-width: 799px)" srcset="~/images/Services_Image_Small.jpg">
+        <source media="(min-width: 800px)" srcset="~/images/Services_Image_Large.jpg">
+        <img src="~/images/Services_Image_Large.jpg" alt="Services" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+    </picture>
+</div>
+
+<div class="service">
+    <h2>IT Consulting</h2>
+    <p>Comprehensive IT consulting to help your business thrive.</p>
+</div>
+<div class="service">
+    <h2>Managed IT Services</h2>
+    <p>Reliable and proactive IT management for your business.</p>
+</div>
+<div class="service">
+    <h2>Cloud Solutions</h2>
+    <p>Flexible and scalable cloud solutions to meet your needs.</p>
+</div>
+<div class="service">
+    <h2>Network Security</h2>
+    <p>Advanced network security to protect your data.</p>
 </div>

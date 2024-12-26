@@ -1,10 +1,35 @@
 @page
-@model GordonITSolutionsWebApp.Pages.ContactModel
+@model ContactModel
 @{
-    ViewData["Title"] = "Contact Us";
+ViewData["Title"] = "Contact Us";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Contact Gordon IT Solutions</h1>
-    <p class="lead">Get in touch with us for all your IT consulting needs.</p>
+<div class="jumbotron">
+    <h1 class="display-4">Get in Touch</h1>
+    <p class="lead">Have questions? Need support? Fill out the form below, and our team will get back to you as soon as
+        possible.</p>
+    <picture>
+        <source media="(max-width: 799px)" srcset="~/images/Contact_Us_Image_Small.jpg">
+        <source media="(min-width: 800px)" srcset="~/images/Contact_Us_Image_Large.jpg">
+        <img src="~/images/Contact_Us_Image_Large.jpg" alt="Contact Us"
+            style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+    </picture>
 </div>
+
+@if (Model.SuccessMessage != null)
+{
+<div class="alert alert-success">
+    @Model.SuccessMessage
+</div>
+}
+<form method="post">
+    <div class="form-group"> <label for="name">Name</label> <input type="text" class="form-control" id="name"
+            name="Form.Name" placeholder="Your Name" required> </div>
+    <div class="form-group"> <label for="email">Email</label> <input type="email" class="form-control" id="email"
+            name="Form.Email" placeholder="Your Email" required> </div>
+    <div class="form-group"> <label for="phone">Phone Number</label> <input type="tel" class="form-control" id="phone"
+            name="Form.Phone" placeholder="Your Phone Number" required> </div>
+    <div class="form-group"> <label for="message">Message</label> <textarea class="form-control" id="message"
+            name="Form.Message" rows="3" placeholder="Your Message" required></textarea> </div> <button type="submit"
+        class="btn btn-primary">Send Message</button>
+</form>

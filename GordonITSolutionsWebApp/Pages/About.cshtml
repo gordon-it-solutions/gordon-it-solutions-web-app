@@ -1,10 +1,17 @@
 @page
-@model GordonITSolutionsWebApp.Pages.AboutModel
+@model AboutModel
 @{
-    ViewData["Title"] = "About Us";
+ViewData["Title"] = "About Us";
 }
 
-<div class="text-center">
-    <h1 class="display-4">About Gordon IT Solutions</h1>
-    <p class="lead">We provide top-notch IT consulting services to help your business thrive.</p>
+<div class="jumbotron">
+    <h1 class="display-4">About Us</h1>
+    <p class="lead">At Gordon IT Solutions, we believe in delivering top-notch IT services. Our team of experts is
+        dedicated to ensuring your business runs smoothly with the best tech solutions.</p>
+    <picture>
+        <source media="(max-width: 799px)" srcset="~/images/Team_Members_Small.jpg">
+        <source media="(min-width: 800px)" srcset="~/images/Team_Members_Large.jpg">
+        <img src="~/images/Team_Members_Large.jpg" alt="Team"
+            style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+    </picture>
 </div>
