@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GordonITSolutionsWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+437ad343619af9addf93552a2d97fe121f610598")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a77b74a3e8fe47e2db1012b101a7737ec8aecb8a")]
 [assembly: System.Reflection.AssemblyProductAttribute("GordonITSolutionsWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GordonITSolutionsWebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
