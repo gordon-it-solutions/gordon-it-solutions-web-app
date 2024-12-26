@@ -1,0 +1,24 @@
+@page
+@model BlogModel
+@{
+    ViewData["Title"] = "Latest Blog Posts";
+}
+
+<div class="jumbotron">
+    <h1 class="display-4">Latest Blog Posts</h1>
+    <p class="lead">Stay updated with the latest trends and tips in IT.</p>
+    <picture>
+        <source media="(max-width: 799px)" srcset="~/images/Blog_Image_Small.jpg">
+        <source media="(min-width: 800px)" srcset="~/images/Blog_Image_Large.jpg">
+        <img src="~/images/Blog_Image_Large.jpg" alt="Blog" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+    </picture>
+</div>
+
+<div class="blog-post">
+    <h2>How to Secure Your Network in 2024</h2>
+    <p>A brief intro about securing your network. <a href="#">Read more...</a></p>
+</div>
+<div class="blog-post">
+    <h2>Top 5 IT Trends to Watch</h2>
+    <p>A brief intro about IT trends. <a href="#">Read more...</a></p>
+</div>

@@ -1,10 +1,17 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home";
+ViewData["Title"] = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome to Gordon It Solutions</h1>
-    <p class="="lead">your trusted partner in It consulting.</p>
+<div class="jumbotron">
+    <h1 class="display-4">Welcome to Gordon IT Solutions</h1>
+    <p class="lead">Your trusted partner in IT solutions. We provide innovative and reliable tech support for businesses
+        of all sizes.</p>
+    <picture>
+        <source media="(max-width: 799px)" srcset="~/images/Modern_Office_Banner_Small.jpg">
+        <source media="(min-width: 800px)" srcset="~/images/Modern_Office_Banner_Large.jpg">
+        <img src="~/images/Modern_Office_Banner_Large.jpg" alt="Modern Office"
+            style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+    </picture>
 </div>
