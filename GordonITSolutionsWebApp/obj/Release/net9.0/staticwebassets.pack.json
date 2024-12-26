@@ -13,6 +13,54 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Blog_Image_Large.jpg",
+      "PackagePath": "staticwebassets/images/Blog_Image_Large.jpg"
+    },
+    {
+      "Id": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Blog_Image_Small.jpg",
+      "PackagePath": "staticwebassets/images/Blog_Image_Small.jpg"
+    },
+    {
+      "Id": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Contact_Us_Image_Large.jpg",
+      "PackagePath": "staticwebassets/images/Contact_Us_Image_Large.jpg"
+    },
+    {
+      "Id": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Contact_Us_Image_Small.jpg",
+      "PackagePath": "staticwebassets/images/Contact_Us_Image_Small.jpg"
+    },
+    {
+      "Id": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Modern_Office_Banner_Large.jpg",
+      "PackagePath": "staticwebassets/images/Modern_Office_Banner_Large.jpg"
+    },
+    {
+      "Id": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Modern_Office_Banner_Small.jpg",
+      "PackagePath": "staticwebassets/images/Modern_Office_Banner_Small.jpg"
+    },
+    {
+      "Id": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Services_Image_Large.jpg",
+      "PackagePath": "staticwebassets/images/Services_Image_Large.jpg"
+    },
+    {
+      "Id": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Services_Image_Small.jpg",
+      "PackagePath": "staticwebassets/images/Services_Image_Small.jpg"
+    },
+    {
+      "Id": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Team_Members_Large.jpg",
+      "PackagePath": "staticwebassets/images/Team_Members_Large.jpg"
+    },
+    {
+      "Id": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Team_Members_Small.jpg",
+      "PackagePath": "staticwebassets/images/Team_Members_Small.jpg"
+    },
+    {
+      "Id": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Testimonials_Image_Large.jpg",
+      "PackagePath": "staticwebassets/images/Testimonials_Image_Large.jpg"
+    },
+    {
+      "Id": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/images/Testimonials_Image_Small.jpg",
+      "PackagePath": "staticwebassets/images/Testimonials_Image_Small.jpg"
+    },
+    {
       "Id": "/home/scott/Projects/GordonITSolutions/GordonITSolutionsWebApp/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
