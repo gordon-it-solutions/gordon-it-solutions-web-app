@@ -1,4 +1,4 @@
-name: Build and deploy ASP.Net Core app to Azure Web App - GordonITSolutionsWebApp
+name: Build, Test, and Deploy ASP.Net Core app to Azure Web App - GordonITSolutionsWebApp
 
 on:
   push:
@@ -37,16 +37,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup .NET Core
+      - name: Set up .NET Core
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '9.x'
 
-      - name: Install security tools
-        run: dotnet tool install --global dotnet-security
-
       - name: Run security analysis
-        run: dotnet security check --project GordonITSolutionsWebApp/GordonITSolutionsWebApp.csproj
+        run: dotnet list package --vulnerable
 
   code_quality_check:
     runs-on: ubuntu-latest
@@ -67,25 +64,25 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
-          dotnet sonarscanner begin /k:"GordonITSolutionsWebApp" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" 
-          dotnet build --configuration Release GordonITSolutionsWebApp/GordonITSolutionsWebApp.csproj 
+          dotnet sonarscanner begin /k:"GordonITSolutionsWebApp" /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
+          dotnet build --configuration Release GordonITSolutionsWebApp/GordonITSolutionsWebApp.csproj
           dotnet sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
 
   deploy:
     runs-on: windows-latest
-    needs: build
+    needs: [build, security_check, code_quality_check] # Updated to require security and quality checks to pass
     environment:
       name: 'Production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
     permissions:
-      id-token: write #This is required for requesting the JWT
+      id-token: write # This is required for requesting the JWT
 
     steps:
       - name: Download artifact from build job
         uses: actions/download-artifact@v4
         with:
           name: .net-app
-      
+
       - name: Login to Azure
         uses: azure/login@v2
         with:
@@ -100,5 +97,6 @@ jobs:
           app-name: 'GordonITSolutionsWebApp'
           slot-name: 'Production'
           package: .
+
 
           
