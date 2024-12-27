@@ -99,3 +99,4 @@ jobs:
 
       - name: Swap Staging to Production
         run: az webapp deployment slot swap --resource-group ${{ secrets.AZURE_RESOURCE_GROUP }} --name GordonITSolutionsWebApp --slot staging
+      # workflow test
