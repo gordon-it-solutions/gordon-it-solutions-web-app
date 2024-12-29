@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
 html, body {
     height: 100%;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F8F9FA;
 }
 
 body {
@@ -11,12 +15,47 @@ body {
 
 #content {
     flex: 1;
+    padding: 20px;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.navbar {
+    background-color: #007BFF;
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    color: #28A745 !important;
 }
 
 footer {
-    background-color: #f8f9fa;
+    background-color: #6C757D;
+    color: #fff;
     padding: 20px;
     text-align: center;
     width: 100%;
 }
+
+/* Additional styling for headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lora', serif;
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #28A745;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #218838;
+}
+
 
